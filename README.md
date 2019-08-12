@@ -21,6 +21,14 @@ Options (all required):
 - `-c` CSV file with `from` and `to` values to redirect.
 - `-b` S3 Bucket to add the redirects objects to.
 
+
+### Example CSV
+
+```
+/foo/,/bar/
+/one,/two/place
+```
+
 ## Development
 
 ### Setup
