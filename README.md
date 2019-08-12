@@ -18,8 +18,8 @@ Given a CSV file with the `from` and `to` redirect values comma separated (no he
 
 Options (all required):
 
-- `-c` CSV File to redirect based on.
-- `-b` S3 Bucket you have access to to add the redirects objects.
+- `-c` CSV file with `from` and `to` values to redirect.
+- `-b` S3 Bucket to add the redirects objects to.
 
 ## Development
 
