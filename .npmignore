@@ -2,3 +2,4 @@ node_modules
 spec
 .github
 .travis.yml
+jest.config.js

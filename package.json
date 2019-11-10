@@ -26,18 +26,5 @@
   },
   "devDependencies": {
     "jest": "^24.9.0"
-  },
-  "jest": {
-    "clearMocks": true,
-    "moduleFileExtensions": [
-      "js"
-    ],
-    "setupFilesAfterEnv": [
-      "<rootDir>/spec/setup.js"
-    ],
-    "testRegex": "/spec/.*\\.(spec).(js)$",
-    "testPathIgnorePatterns": [
-      "/node_modules/"
-    ]
   }
 }
