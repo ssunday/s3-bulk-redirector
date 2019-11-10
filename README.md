@@ -16,11 +16,11 @@ Given a CSV file with the `from` and `to` redirect values comma separated (no he
 
 *If you use a named AWS Profile, prefix the command with AWS_PROFILE=X.*
 
-Options (all required):
+Options:
 
-- `-c` CSV file with `from` and `to` values to redirect.
-- `-b` S3 Bucket to add the redirects objects to.
-
+- `-c` CSV file with `from` and `to` values to redirect. **Required**
+- `-b` S3 Bucket to add the redirects objects to. **Required**
+- `-p` Flag to set S3 Object ACL as private instead of public
 
 ### Example CSV
 
@@ -37,5 +37,5 @@ Options (all required):
 
 ### Commands
 
-- Run: `./s3-bulk-redirector.js `
+- Run: `./s3-bulk-redirector.js` with flags to test out
 - Test: `npm run test` or `npm run test:watch`
