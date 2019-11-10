@@ -39,3 +39,14 @@ Options:
 
 - Run: `./s3-bulk-redirector.js` with flags to test out
 - Test: `npm run test` or `npm run test:watch`
+
+
+## Changelog
+
+### 1.0.1
+
+Update to push new README version
+
+### 1.0.0
+
+Initial release
