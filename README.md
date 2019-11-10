@@ -40,8 +40,12 @@ Options:
 - Run: `./s3-bulk-redirector.js` with flags to test out
 - Test: `npm run test` or `npm run test:watch`
 
-
 ## Changelog
+
+### 1.1.0
+
+- Update dependencies
+- Add private flag (`-p`) to set private ACL for S3 objects
 
 ### 1.0.1
 
