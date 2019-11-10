@@ -20,24 +20,11 @@
   },
   "bin": "./s3-bulk-redirector.js",
   "dependencies": {
-    "aws-sdk": "^2.479.0",
-    "commander": "^2.20.0",
-    "csv-parse": "^4.4.3"
+    "aws-sdk": "^2.568.0",
+    "commander": "^2.20.3",
+    "csv-parse": "^4.6.5"
   },
   "devDependencies": {
-    "jest": "^24.8.0"
-  },
-  "jest": {
-    "clearMocks": true,
-    "moduleFileExtensions": [
-      "js"
-    ],
-    "setupFilesAfterEnv": [
-      "<rootDir>/spec/setup.js"
-    ],
-    "testRegex": "/spec/.*\\.(spec).(js)$",
-    "testPathIgnorePatterns": [
-      "/node_modules/"
-    ]
+    "jest": "^24.9.0"
   }
 }
