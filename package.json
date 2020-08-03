@@ -20,11 +20,11 @@
   },
   "bin": "./s3-bulk-redirector.js",
   "dependencies": {
-    "aws-sdk": "^2.668.0",
-    "commander": "^5.1.0",
-    "csv-parse": "^4.9.0"
+    "aws-sdk": "^2.725.0",
+    "commander": "^6.0.0",
+    "csv-parse": "^4.11.1"
   },
   "devDependencies": {
-    "jest": "^25.5.3"
+    "jest": "^26.2.2"
   }
 }
