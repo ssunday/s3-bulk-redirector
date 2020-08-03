@@ -7,7 +7,7 @@ const s3 = require('./src/s3');
 const parser = require('./src/parser');
 
 program
-  .version('1.1.1')
+  .version('1.1.2')
   .option('-c, --csv-file <CSV_FILE>', 'CSV File to read list of redirects')
   .option('-b, --bucket <S3_BUCKET>', 'S3 Bucket to serve redirects from')
   .option('-p, --private', 'Use to set object ACL to private ACL instead of public')
