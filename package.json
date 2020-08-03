@@ -1,6 +1,6 @@
 {
   "name": "s3-bulk-redirector",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Utility to use s3's x-amz-website-redirect-location metadata to redirect routes",
   "main": "s3-bulk-redirector.js",
   "keywords": [
