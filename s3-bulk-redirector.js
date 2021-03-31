@@ -13,17 +13,22 @@ program
   .option('-p, --private', 'Use to set object ACL to private ACL instead of public')
   .parse(process.argv);
 
-if (program.csvFile === undefined || program.bucket === undefined) {
+const programOptions = program.opts();
+
+const csvFile = programOptions.csvFile;
+const bucket = programOptions.bucket;
+
+if (csvFile === undefined || bucket === undefined) {
   program.outputHelp();
 } else {
   const options = {
-    private: program.private !== undefined
+    private: programOptions.private !== undefined
   };
 
-  parser.parseCSV(program.csvFile, (redirects) => {
+  parser.parseCSV(csvFile, (redirects) => {
     redirects.forEach((redirect) => {
       s3.applyRedirect(
-        program.bucket,
+        bucket,
         formatter.formatFrom(redirect.from),
         formatter.formatTo(redirect.to),
         options
