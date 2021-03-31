@@ -42,6 +42,10 @@ Options:
 
 ## Changelog
 
+### 1.1.3
+
+- Update dependencies (including commander to v7, changing options access flow)
+
 ### 1.1.2
 
 - Update dependencies
