@@ -1,7 +1,7 @@
 const fs = require('fs');
-const parse = require('csv-parse')
+const csvParse = require('csv-parse')
 
-const parser = parse({
+const parser = csvParse.parse({
   columns: ['from', 'to'],
   trim: true,
   skip_empty_lines: true
