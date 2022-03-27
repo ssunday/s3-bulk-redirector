@@ -44,6 +44,10 @@ Use node version of 14+.
 
 ## Changelog
 
+### 1.1.4
+
+- Update dependencies (commander to v9, csv-parse to 5)
+
 ### 1.1.3
 
 - Update dependencies (including commander to v7, changing options access flow)
