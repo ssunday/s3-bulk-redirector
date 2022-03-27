@@ -31,6 +31,8 @@ Options:
 
 ## Development
 
+Use node version of 14+.
+
 ### Setup
 
 - `npm install`
