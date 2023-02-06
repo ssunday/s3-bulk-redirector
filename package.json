@@ -22,11 +22,11 @@
     "s3-bulk-redirector": "s3-bulk-redirector.js"
   },
   "dependencies": {
-    "aws-sdk": "^2.1101.0",
+    "aws-sdk": "^2.1310.0",
     "commander": "^9.1.0",
-    "csv-parse": "^5.0.4"
+    "csv-parse": "^5.3.4"
   },
   "devDependencies": {
-    "jest": "^27.5.1"
+    "jest": "^29.4.1"
   }
 }
