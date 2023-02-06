@@ -31,7 +31,7 @@ Options:
 
 ## Development
 
-Use node version of 14+.
+Use node version of 18+.
 
 ### Setup
 
