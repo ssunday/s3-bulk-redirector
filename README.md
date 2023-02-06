@@ -44,6 +44,10 @@ Use node version of 18+.
 
 ## Changelog
 
+### 1.1.5
+
+- Update dependencies
+
 ### 1.1.4
 
 - Update dependencies (commander to v9, csv-parse to 5)
