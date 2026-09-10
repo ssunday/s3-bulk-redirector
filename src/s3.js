@@ -1,13 +1,15 @@
-const AWS = require('aws-sdk');
+const { S3 } = require('@aws-sdk/client-s3');
 
 const PUBLIC_READ = 'public-read';
 const PRIVATE = 'private';
-const s3Client = new AWS.S3({ profile: process.env.AWS_PROFILE });
+const s3Client = new S3({ region: process.env.AWS_REGION, profile: process.env.AWS_PROFILE });
+
+const emptyBuffer = Buffer.from('');
 
 function buildRedirectObject(bucket, from, to, options) {
   return {
     ACL: options.private ? PRIVATE : PUBLIC_READ,
-    Body: '',
+    Body: emptyBuffer,
     Bucket: bucket,
     Key: from,
     WebsiteRedirectLocation: to
