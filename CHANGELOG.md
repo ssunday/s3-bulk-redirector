@@ -2,6 +2,7 @@
 
 - Update dependencies (aws-sdk to v3 update)
 - Requires AWS_REGION to be set.
+- Dropping support for Node < 20
 
 ### 1.1.5
 

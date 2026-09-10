@@ -33,8 +33,6 @@ Options:
 
 ## Development
 
-Use node version of 18+.
-
 ### Setup
 
 - `npm install`
