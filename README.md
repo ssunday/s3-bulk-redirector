@@ -16,6 +16,8 @@ Given a CSV file with the `from` and `to` redirect values comma separated (no he
 
 *If you use a named AWS Profile, prefix the command with AWS_PROFILE=X.*
 
+AWS_REGION must also be set.
+
 Options:
 
 - `-c` CSV file with `from` and `to` values to redirect. **Required**
@@ -31,8 +33,6 @@ Options:
 
 ## Development
 
-Use node version of 18+.
-
 ### Setup
 
 - `npm install`
@@ -41,38 +41,3 @@ Use node version of 18+.
 
 - Run: `./s3-bulk-redirector.js` with flags to test out
 - Test: `npm run test` or `npm run test:watch`
-
-## Changelog
-
-### 1.1.5
-
-- Update dependencies
-
-### 1.1.4
-
-- Update dependencies (commander to v9, csv-parse to 5)
-
-### 1.1.3
-
-- Update dependencies (including commander to v7, changing options access flow)
-
-### 1.1.2
-
-- Update dependencies
-
-### 1.1.1
-
-- Update dependencies
-
-### 1.1.0
-
-- Update dependencies
-- Add private flag (`-p`) to set private ACL for S3 objects
-
-### 1.0.1
-
-Update to push new README version
-
-### 1.0.0
-
-Initial release

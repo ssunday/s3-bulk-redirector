@@ -10,7 +10,7 @@ describe('s3', () => {
       expect(s3.client.putObject).toHaveBeenCalledWith(
         {
           ACL: 'public-read',
-          Body: '',
+          Body: Buffer.from(''),
           Bucket: 'bucket',
           Key: '/from',
           WebsiteRedirectLocation: '/to'
@@ -25,7 +25,7 @@ describe('s3', () => {
       expect(s3.client.putObject).toHaveBeenCalledWith(
         {
           ACL: 'private',
-          Body: '',
+          Body: Buffer.from(''),
           Bucket: 'bucket',
           Key: '/from',
           WebsiteRedirectLocation: '/to'
@@ -40,7 +40,7 @@ describe('s3', () => {
       expect(s3.client.putObject).toHaveBeenCalledWith(
         {
           ACL: 'public-read',
-          Body: '',
+          Body: Buffer.from(''),
           Bucket: 'bucket',
           Key: '/from',
           WebsiteRedirectLocation: '/to'
