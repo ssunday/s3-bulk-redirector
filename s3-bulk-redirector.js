@@ -5,9 +5,10 @@ const program = require('commander');
 const formatter = require('./src/formatter');
 const s3 = require('./src/s3');
 const parser = require('./src/parser');
+const packageManfiest = require('./package.json');
 
 program
-  .version('1.1.5')
+  .version(packageManfiest.version)
   .option('-c, --csv-file <CSV_FILE>', 'CSV File to read list of redirects')
   .option('-b, --bucket <S3_BUCKET>', 'S3 Bucket to serve redirects from')
   .option('-p, --private', 'Use to set object ACL to private ACL instead of public')
