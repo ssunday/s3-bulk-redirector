@@ -1,6 +1,6 @@
 # S3 Bulk Redirector
 
-[![NPM](https://nodei.co/npm/s3-bulk-redirector.png)](https://nodei.co/npm/s3-bulk-redirector)
+[NPM](https://www.npmjs.com/package/s3-bulk-redirector)
 
 Uses the [x-amz-website-redirect-location](https://docs.aws.amazon.com/AmazonS3/latest/dev/how-to-page-redirect.html) to set bulk redirects for a given S3 bucket. Routing rules have a max limit whereas this does not.
 
